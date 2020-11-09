@@ -18,7 +18,7 @@ void axpby(int64_t N, double* z, double a, double* x, double b, double* y) {
 }
 
 // EXERCISE: Use Kokkos Views here instead of pointers
-double dot(int64_t num_rows, double* x, double* y) {
+double dot(int64_t N, double* x, double* y) {
   double result = 0;
   // EXERCISE: make this a parallel loop
   for(int i=0; i<N; i++)
