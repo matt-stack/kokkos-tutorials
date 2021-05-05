@@ -1,5 +1,7 @@
-KOKKOS_PATH = ${HOME}/Kokkos/kokkos
-KOKKOS_DEVICES = "OpenMP"
+#KOKKOS_PATH = ${HOME}/Kokkos/kokkos
+KOKKOS_PATH = /home/mstack/0_Kokkos/Kokkos_CudaAsyncSpace
+#KOKKOS_DEVICES = "OpenMP"
+KOKKOS_DEVICES = "Cuda"
 EXE_NAME = "01_Exercise"
 
 SRC = $(wildcard *.cpp)
